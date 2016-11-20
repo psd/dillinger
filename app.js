@@ -96,7 +96,7 @@ app.locals.node_version = process.version.replace('v', '')
 app.locals.env = process.env.NODE_ENV
 
 // At startup time so sync is ok.
-app.locals.readme = fs.readFileSync(path.resolve(__dirname, './README.md'), 'utf-8')
+app.locals.readme = fs.readFileSync(path.resolve(__dirname, 'store/legislation/uksi-2015-1227.md'), 'utf-8')
 
 if ('development' == env) {
   app.use(errorHandler())

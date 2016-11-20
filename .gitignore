@@ -8,7 +8,7 @@ downloads/files/md/*.md
 downloads/files/html/*.html
 downloads/css/style.css
 
-*-config.json
+# *-config.json
 backup/*
 
 # IntelliJ - PhpStorm and PyCharm
